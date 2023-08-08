@@ -1,0 +1,558 @@
+p {
+    margin: 0;
+}
+
+body {
+    cursor: url(../img/cursor\ \(3\).cur), default;
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.wrapper {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ka {
+    width: 150px;
+}
+
+.pls:hover {
+    color: #f5ed08;
+}
+
+.none-bruh a {
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #151517;
+    font-weight: 700;
+    font-family: "Roboto";
+    text-align: right;
+}
+
+.bob {
+    left: 4%;
+    top: 45%;
+    position: absolute;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #151517;
+}
+
+.bob:before {
+    content: '<';
+color: #ffffff;
+font-size: 34px;
+}
+
+.bob2::after {
+    content: '>';
+color: #ffffff;
+font-size: 34px;
+}
+
+.bob2 {
+    right: 4%;
+    top: 45%;
+    position: absolute;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #151517;
+}
+
+.bob2:hover,
+.bob:hover {
+    background-color: #f5ed08;
+}
+
+.none-bruh a:hover {
+    text-decoration: underline;
+    text-decoration-color: yellow;
+}
+
+.pls {
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Roboto";
+    text-decoration: none;
+}
+
+.pls img {
+    vertical-align: bottom;
+}
+
+.top-menu {
+    background-color: black;
+    color: #ffffff;
+    padding: 5px 0;
+}
+
+.top-menu p {
+    margin: 0;
+}
+
+.menu {
+    text-align: center;
+    color: black;
+    background-color: #ffffff;
+}
+
+.center {
+    padding-bottom: 60px;
+    padding-top: 60px;
+    display: flex;
+}
+
+.card {
+    text-align: center;
+    border: transparent solid;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 50px;
+    width: 270px;
+    height: 260px;
+    border-radius: 5px;
+}
+
+.card:hover {
+    border: #f5ed08 solid;
+}
+
+
+.now-center {
+    position: relative;
+    color: #ffffff;
+    text-align: center;
+    background-image: url(/img/fruit.jpg);
+    background-size: cover;
+    padding: 135px 0;
+}
+
+.now-center h1 {
+    font-size: 50px;
+letter-spacing: 2px;
+line-height: 60px;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 700;
+font-family: "Roboto Slab";
+text-align: center;
+}
+
+.aaa {
+    width: 1170px;
+height: 98px;
+font-size: 18px;
+line-height: 28px;
+color: #ffffff;
+font-weight: 300;
+font-family: "Roboto";
+text-align: center;
+}
+
+.ooo {
+    width: 260px;
+height: 64px;
+font-size: 14px;
+line-height: 21px;
+color: #878787;
+font-weight: 400;
+font-family: "Roboto";
+text-align: center;
+}
+
+.nnn{
+    width: 260px;
+height: 64px;
+font-size: 14px;
+line-height: 21px;
+color: #878787;
+font-weight: 400;
+font-family: "Roboto";
+text-align: center;
+}
+
+.yyy {
+    width: 260px;
+height: 64px;
+font-size: 14px;
+line-height: 21px;
+color: #878787;
+font-weight: 400;
+font-family: "Roboto";
+text-align: center;
+}
+
+.iii {
+    width: 260px;
+height: 64px;
+font-size: 14px;
+line-height: 21px;
+color: #878787;
+font-weight: 400;
+font-family: "Roboto";
+text-align: center;
+}
+
+.kkk {
+font-size: 16px;
+line-height: 24px;
+color: #878787;
+font-weight: 300;
+font-family: "Roboto";
+text-align: center;
+}
+
+.lll {
+font-size: 16px;
+line-height: 24px;
+color: #ffffff;
+font-weight: 300;
+font-family: "Roboto";
+text-align: center;
+}
+
+.new:hover {
+    color: black;
+    background-color: #ffffff;
+}
+
+.new {
+    color: black;
+    padding: 21px;
+    display: inline-block;
+    border-radius: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 220px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: #f5ed08;
+    box-sizing: border-box;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #151517;
+    font-weight: 700;
+    font-family: "Roboto";
+    text-align: center;
+}
+
+
+.menu li {
+    margin: 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+.now-end {
+    padding: 50px;
+    text-align: center;
+    background-color: #f1f1f3;
+}
+
+.kllkhj h1 {
+    font-size: 36px;
+line-height: 46px;
+color: #151517;
+font-weight: 700;
+font-family: "Roboto Slab";
+text-align: center;
+}
+
+.top-button {
+    color: #f1f1f3;
+    text-align: center;
+    background-image: url(../img/salat-and-fruit.jpg);
+    padding: 60px;
+    height: 143px;
+}
+
+
+
+.exe,
+.door {
+    text-align: center;
+}
+
+.exe a,
+.door a {
+    display: inline-block;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 10px;
+   padding: 15px;
+    text-decoration: none;
+    color: #151517;
+    font-weight: 700;
+    font-family: "Roboto";
+    text-align: center;
+    width: 150px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    border: 2px solid #f5ed08;
+}
+
+.door {
+    background-color: #ffffff;
+    padding-bottom: 45px;
+}
+
+.exe a:hover,
+.door a:hover {
+    background-color: #f5ed08;
+}
+
+.exe a {
+    width: 170px;
+}
+
+.exe {
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.koka:hover {
+    color: black;
+    background-color: #ffffff;
+}
+
+.koka {
+    color: black;
+    padding: 13px;
+    display: inline-block;
+    border-radius: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 220px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: #f5ed08;
+    box-sizing: border-box;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #151517;
+    font-weight: 700;
+    font-family: "Roboto";
+    text-align: center;
+}
+
+.low-menu {
+    text-align: center;
+
+}
+
+.door {
+    display: inline-flex;
+    color: black;
+    border-radius: 5px;
+}
+
+
+.low-menu ul {
+    padding: 100px;
+    text-align: center;
+}
+
+
+.dishes {
+    display: flex;
+}
+
+.dishes img {
+    width: 20%;
+}
+
+.end {
+    background-color: #f1f1f3;
+    text-align: center;
+    padding: 20px 0 65px; 
+}
+
+.end h2 {
+    font-size: 36px;
+line-height: 46px;
+color: #151517;
+font-weight: 700;
+font-family: "Roboto Slab";
+text-align: center;
+}
+
+.hi {
+    width: 727px;
+height: 76px;
+font-size: 15px;
+line-height: 24px;
+color: #878787;
+font-weight: 300;
+font-family: "Roboto";
+text-align: center;
+    padding: 30px;
+    display: inline-block;
+    background-color: #ffffff;
+}
+
+.artem {
+    width: 340px;
+    height: 300px;
+    color: #ffffff;
+    display: block;
+}
+
+.bu {
+    color: dimgray;
+}
+
+.end-menu {
+    width: 340px;
+    display: block;
+}
+
+.boba {
+    background-color: black;
+    color: #fff;
+    padding: 45px 0;
+}
+ .boba .wrapper {
+    display: flex;
+ }
+
+.pa {
+    color: #ffffff;
+}
+
+.what a {
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Roboto";
+    text-decoration: none;
+}
+
+.what a:hover {
+    color: yellow;
+}
+
+.contacts {
+    width: 340px;
+}
+
+.pi {
+    color: #ffffff;
+}
+
+.bruh a:hover {
+    background-color: #f5ed08;
+}
+
+.bruh img {
+    width: 100%;
+}
+
+/* .bruh {
+    position: relative;
+    min-height: 500px;
+    background-image: url(/img/map.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.map-info {
+    width: 300px;
+    height: 170px;
+    color: #f5ed08;
+    position: absolute;
+    top: calc(65% - 150px);
+    left: calc(48% - 85px);
+} */
+
+.py {
+    color: #ffffff;
+}
+
+.la {
+    border-radius: 5px;
+    border: 2px solid dimgray;
+}
+
+.polands {
+    padding: 20px 0;
+}
+
+.polands img {
+    border: solid transparent 2px;
+    border-radius: 50%;
+}
+
+.polands img:hover {
+    border-color: #f5ed08;
+}
+
+.lo {
+    width: 125px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.obkakalca {
+    font-size: 14px;
+color: black;
+font-weight: 700;
+font-family: "Roboto Slab";
+text-align: center;
+}
+
+.obkakalca h3 {
+    margin: 0;
+}
+
+.ap h6{
+    font-size: 13px;
+line-height: 24px;
+color: #878787;
+font-weight: 300;
+font-family: "Roboto";
+text-align: center;
+margin: 0;
+    left: 4%;
+    top: 10%;
+}
+.wow-you img {
+    vertical-align: middle;
+}
+
+.wow-you a {
+    display: inline-block;
+    padding: 10px 0;
+}
+
+.wow-you a:hover {
+    color: yellow;
+}
+
+.wow-you {
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Roboto";
+    text-decoration: none;
+}
