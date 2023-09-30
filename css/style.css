@@ -1,3 +1,7 @@
+html {
+    font-size: 1px;
+}
+
 p {
     margin: 0;
 }
@@ -16,15 +20,14 @@ ul {
 .wrapper {
     max-width: 1170px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 .flex {
     display: flex;
     justify-content: space-between;
-}
-
-.ka {
-    width: 150px;
+    align-items: center;
+    column-gap: 7px;
 }
 
 .pls:hover {
@@ -33,7 +36,7 @@ ul {
 
 .none-bruh a {
     text-decoration: none;
-    font-size: 14px;
+    font-size: 14rem;
     letter-spacing: 1px;
     text-transform: uppercase;
     color: #151517;
@@ -41,6 +44,8 @@ ul {
     font-family: "Roboto";
     text-align: right;
 }
+
+
 
 .bob {
     left: 4%;
@@ -56,13 +61,13 @@ ul {
 .bob:before {
     content: '<';
 color: #ffffff;
-font-size: 34px;
+font-size: 34rem;
 }
 
 .bob2::after {
     content: '>';
 color: #ffffff;
-font-size: 34px;
+font-size: 34rem;
 }
 
 .bob2 {
@@ -82,12 +87,11 @@ font-size: 34px;
 }
 
 .none-bruh a:hover {
-    text-decoration: underline;
-    text-decoration-color: yellow;
+    border-bottom: 4px solid yellow;
 }
 
 .pls {
-    font-size: 14px;
+    font-size: 14rem;
     color: #ffffff;
     font-weight: 400;
     font-family: "Roboto";
@@ -101,14 +105,24 @@ font-size: 34px;
 .top-menu {
     background-color: black;
     color: #ffffff;
-    padding: 5px 0;
+    padding: 10px 0;
 }
 
 .top-menu p {
     margin: 0;
 }
 
-.menu {
+.menu h1 {
+    font-size: 30rem                                               ;
+color: #151517;
+font-weight: 700;
+font-family: "Roboto Slab";
+    margin: 0;
+}
+
+.menu  {
+    font-size: 30rem;
+    padding: 30px 0;
     text-align: center;
     color: black;
     background-color: #ffffff;
@@ -127,7 +141,7 @@ font-size: 34px;
     padding-left: 10px;
     padding-top: 50px;
     width: 270px;
-    height: 260px;
+    padding-bottom: 45px;
     border-radius: 5px;
 }
 
@@ -135,18 +149,17 @@ font-size: 34px;
     border: #f5ed08 solid;
 }
 
-
 .now-center {
     position: relative;
     color: #ffffff;
     text-align: center;
     background-image: url(/img/fruit.jpg);
     background-size: cover;
-    padding: 135px 0;
+    padding: 5vw 0 5vw 0;
 }
 
-.now-center h1 {
-    font-size: 50px;
+.now-center h2 {
+    font-size: 50rem;
 letter-spacing: 2px;
 line-height: 60px;
 text-transform: uppercase;
@@ -156,11 +169,37 @@ font-family: "Roboto Slab";
 text-align: center;
 }
 
+.hamm {
+    position: relative;
+    display: none;
+    width: 25px;
+    height: 25px;
+}
+
+.hamm span,
+.hamm span:before,
+.hamm span:after {
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 4px;
+    top: 50%;
+    left: 0;
+    background-color: #fff;
+}
+
+.hamm span:before {
+    top: 10px;
+}
+
+.hamm span:after {
+    top: -10px;
+}
+
 .aaa {
-    width: 1170px;
-height: 98px;
-font-size: 18px;
-line-height: 28px;
+    margin: 45px 0;
+font-size: 18rem;
+line-height: 21px;
 color: #ffffff;
 font-weight: 300;
 font-family: "Roboto";
@@ -170,7 +209,7 @@ text-align: center;
 .ooo {
     width: 260px;
 height: 64px;
-font-size: 14px;
+font-size: 14rem;
 line-height: 21px;
 color: #878787;
 font-weight: 400;
@@ -181,7 +220,7 @@ text-align: center;
 .nnn{
     width: 260px;
 height: 64px;
-font-size: 14px;
+font-size: 14rem;
 line-height: 21px;
 color: #878787;
 font-weight: 400;
@@ -192,7 +231,7 @@ text-align: center;
 .yyy {
     width: 260px;
 height: 64px;
-font-size: 14px;
+font-size: 14rem;
 line-height: 21px;
 color: #878787;
 font-weight: 400;
@@ -203,7 +242,7 @@ text-align: center;
 .iii {
     width: 260px;
 height: 64px;
-font-size: 14px;
+font-size: 14rem;
 line-height: 21px;
 color: #878787;
 font-weight: 400;
@@ -212,7 +251,7 @@ text-align: center;
 }
 
 .kkk {
-font-size: 16px;
+font-size: 16rem;
 line-height: 24px;
 color: #878787;
 font-weight: 300;
@@ -221,7 +260,8 @@ text-align: center;
 }
 
 .lll {
-font-size: 16px;
+    margin: 30px;
+font-size: 16rem;
 line-height: 24px;
 color: #ffffff;
 font-weight: 300;
@@ -232,21 +272,23 @@ text-align: center;
 .new:hover {
     color: black;
     background-color: #ffffff;
+    border: solid yellow 3px ;
 }
 
 .new {
+    border: 3px transparent solid;
     color: black;
     padding: 21px;
     display: inline-block;
     border-radius: 10px;
     text-decoration: none;
     border-radius: 5px;
-    width: 220px;
+    width: 240px;
     height: 60px;
     border-radius: 5px;
     background-color: #f5ed08;
     box-sizing: border-box;
-    font-size: 18px;
+    font-size: 18rem;
     letter-spacing: 1px;
     text-transform: uppercase;
     color: #151517;
@@ -257,19 +299,17 @@ text-align: center;
 
 
 .menu li {
-    margin: 20px;
     text-align: center;
-    display: inline-block;
 }
 
 .now-end {
-    padding: 50px;
+    padding: 50px 0;
     text-align: center;
     background-color: #f1f1f3;
 }
 
-.kllkhj h1 {
-    font-size: 36px;
+.kllkhj h2 {
+    font-size: 36rem;
 line-height: 46px;
 color: #151517;
 font-weight: 700;
@@ -281,8 +321,7 @@ text-align: center;
     color: #f1f1f3;
     text-align: center;
     background-image: url(../img/salat-and-fruit.jpg);
-    padding: 60px;
-    height: 143px;
+    padding: 45px 0 60px 0;
 }
 
 
@@ -295,7 +334,7 @@ text-align: center;
 .exe a,
 .door a {
     display: inline-block;
-    font-size: 14px;
+    font-size: 14rem;
     letter-spacing: 1px;
     text-transform: uppercase;
     margin: 10px;
@@ -331,6 +370,7 @@ text-align: center;
 }
 
 .koka:hover {
+    border: solid #f5ed08 3px;
     color: black;
     background-color: #ffffff;
 }
@@ -342,12 +382,11 @@ text-align: center;
     border-radius: 10px;
     text-decoration: none;
     border-radius: 5px;
-    width: 220px;
-    height: 60px;
+    border: 3px transparent solid;
     border-radius: 5px;
     background-color: #f5ed08;
     box-sizing: border-box;
-    font-size: 18px;
+    font-size: 18rem;
     letter-spacing: 1px;
     text-transform: uppercase;
     color: #151517;
@@ -356,9 +395,35 @@ text-align: center;
     text-align: center;
 }
 
+
+
 .low-menu {
     text-align: center;
+}
 
+.low-menu h2 {
+    font-size: 36rem;
+line-height: 46rem;
+color: #151517;
+font-weight: 700;
+font-family: "Roboto Slab";
+text-align: center;
+}
+
+.plsa a{
+    text-decoration: none;
+    font-size: 14rem;
+    color: #f1f1f3;
+    font-weight: 400;
+    font-family: "Roboto";
+}
+
+.pleaseo a {
+    text-decoration: none;
+    font-size: 14rem;
+color: #f1f1f3;
+font-weight: 400;
+font-family: "Roboto";
 }
 
 .door {
@@ -376,10 +441,16 @@ text-align: center;
 
 .dishes {
     display: flex;
+    justify-content: center;
+}
+
+.dishes {
+    flex-wrap: wrap;
 }
 
 .dishes img {
     width: 20%;
+    min-width: 290px;
 }
 
 .end {
@@ -389,7 +460,7 @@ text-align: center;
 }
 
 .end h2 {
-    font-size: 36px;
+    font-size: 36rem;
 line-height: 46px;
 color: #151517;
 font-weight: 700;
@@ -398,10 +469,10 @@ text-align: center;
 }
 
 .hi {
-    width: 727px;
-height: 76px;
-font-size: 15px;
+    max-width: 727px;
+font-size: 15rem;
 line-height: 24px;
+position: relative;
 color: #878787;
 font-weight: 300;
 font-family: "Roboto";
@@ -411,11 +482,44 @@ text-align: center;
     background-color: #ffffff;
 }
 
+.hi:before {
+    content: '' ;
+    position: absolute;
+    display: inline-block;
+    background-color: #fff;
+    width: 10px;
+    height: 10px;
+    transform: rotate(45deg);
+    bottom: -5px;
+}
+
 .artem {
-    width: 340px;
-    height: 300px;
     color: #ffffff;
     display: block;
+}
+
+.artem h2 {
+    font-size: 30rem;
+color: #ffffff;
+font-weight: 700;
+font-family: "Roboto Slab";
+} 
+
+.artem  p{
+    font-size: 13rem;
+line-height: 24rem;
+color: #878787;
+font-weight: 300;
+font-family: "Roboto";
+}
+
+.boba h3 {
+    font-size: 14px;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #f1f1f3;
+font-weight: 700;
+font-family: "Roboto Slab";
 }
 
 .bu {
@@ -423,7 +527,6 @@ text-align: center;
 }
 
 .end-menu {
-    width: 340px;
     display: block;
 }
 
@@ -433,6 +536,9 @@ text-align: center;
     padding: 45px 0;
 }
  .boba .wrapper {
+    justify-content: space-between;
+    row-gap: 30px;
+
     display: flex;
  }
 
@@ -440,8 +546,12 @@ text-align: center;
     color: #ffffff;
 }
 
+.what li {
+    margin-bottom: 7px;
+}
+
 .what a {
-    font-size: 14px;
+    font-size: 14rem;
     color: #ffffff;
     font-weight: 400;
     font-family: "Roboto";
@@ -452,9 +562,6 @@ text-align: center;
     color: yellow;
 }
 
-.contacts {
-    width: 340px;
-}
 
 .pi {
     color: #ffffff;
@@ -490,6 +597,19 @@ text-align: center;
 }
 
 .la {
+    padding: 15px;
+    font-size: 13rem;
+line-height: 24px;
+color: #878787;
+font-weight: 300;
+font-family: "Roboto";
+    font-size: 14rem;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: dimgray;
+font-weight: 700;
+font-family: "Roboto";
+text-align: center;
     border-radius: 5px;
     border: 2px solid dimgray;
 }
@@ -514,7 +634,7 @@ text-align: center;
 }
 
 .obkakalca {
-    font-size: 14px;
+    font-size: 14rem;
 color: black;
 font-weight: 700;
 font-family: "Roboto Slab";
@@ -525,8 +645,16 @@ text-align: center;
     margin: 0;
 }
 
+.card h3{
+    font-size: 18rem;
+color: #151517;
+font-weight: 700;
+font-family: "Roboto Slab";
+text-align: center;
+}
+
 .ap h6{
-    font-size: 13px;
+    font-size: 13rem;
 line-height: 24px;
 color: #878787;
 font-weight: 300;
@@ -541,6 +669,8 @@ margin: 0;
 }
 
 .wow-you a {
+    margin: 7px;
+    color: #ffffff;
     display: inline-block;
     padding: 10px 0;
 }
@@ -550,9 +680,52 @@ margin: 0;
 }
 
 .wow-you {
-    font-size: 14px;
+    font-size: 14rem;
     color: #ffffff;
     font-weight: 400;
     font-family: "Roboto";
     text-decoration: none;
+}
+
+.col {
+    width: 270px;
+}
+
+@media screen and (max-width: 1203px) {
+    .boba .wrapper,
+    .center {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 810px) {
+
+    .hamm {
+        display: block;
+    }
+
+    html {
+        font-size: 0.8px;
+    }
+    .adress {
+        display: none;
+    }
+
+    .none-bruh {
+        display: none;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 1203px) {
+
+    .door {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 776px) {
+    
+
 }
